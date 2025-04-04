@@ -11,7 +11,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-4">Next.js Boilerplate</h1>
           <p className="text-xl mb-8">Un point de départ moderne pour vos projets Next.js</p>
           <div className="flex justify-center gap-4">
-            <Button href="https://github.com/NecatTech/lab_1" variant="primary" size="lg">
+            <Button href="https://github.com/NecaTech/boilerplate" variant="primary" size="lg">
               Voir sur GitHub
             </Button>
             <Button href="/docs" variant="secondary" size="lg">

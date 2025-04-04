@@ -81,7 +81,7 @@ export default function AboutPage() {
             <Button href="/" variant="primary">
               Retour à l'accueil
             </Button>
-            <Button href="https://github.com/NecatTech/lab_1" variant="secondary">
+            <Button href="https://github.com/NecaTech/boilerplate" variant="secondary">
               Voir sur GitHub
             </Button>
           </div>

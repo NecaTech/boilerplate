@@ -12,7 +12,7 @@ export default function ContactPage() {
     <DefaultLayout>
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold mb-6">Contact</h1>
-        
+
         <Card className="mb-8">
           <Card.Content>
             <form className="space-y-4">
@@ -27,7 +27,7 @@ export default function ContactPage() {
                   placeholder="Votre nom"
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="email" className="block mb-1 font-medium">
                   Email
@@ -39,7 +39,7 @@ export default function ContactPage() {
                   placeholder="votre@email.com"
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="message" className="block mb-1 font-medium">
                   Message
@@ -51,7 +51,7 @@ export default function ContactPage() {
                   placeholder="Votre message..."
                 ></textarea>
               </div>
-              
+
               <div>
                 <Button type="submit" variant="primary" className="w-full">
                   Envoyer le message
@@ -60,7 +60,7 @@ export default function ContactPage() {
             </form>
           </Card.Content>
         </Card>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card>
             <Card.Header>
@@ -73,7 +73,7 @@ export default function ContactPage() {
               </a>
             </Card.Content>
           </Card>
-          
+
           <Card>
             <Card.Header>
               <Card.Title>GitHub</Card.Title>
@@ -81,12 +81,12 @@ export default function ContactPage() {
             <Card.Content>
               <p className="mb-2">Consultez le code source sur GitHub :</p>
               <a
-                href="https://github.com/NecatTech/lab_1"
+                href="https://github.com/NecaTech/boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 dark:text-blue-400 hover:underline"
               >
-                github.com/NecatTech/lab_1
+                github.com/NecaTech/boilerplate
               </a>
             </Card.Content>
           </Card>

@@ -36,6 +36,11 @@ Un boilerplate moderne pour démarrer rapidement des projets Next.js avec TypeSc
 ## Démarrage rapide
 
 1. Clonez ce dépôt ou utilisez-le comme template
+
+```bash
+git clone https://github.com/NecaTech/boilerplate.git mon-nouveau-projet
+cd mon-nouveau-projet
+```
 2. Installez les dépendances :
 
 ```bash
