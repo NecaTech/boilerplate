@@ -4,7 +4,7 @@ import Card from "../../components/ui/Card";
 
 export const metadata = {
   title: "Contact | Next.js Boilerplate",
-  description: "Contactez-nous pour plus d'informations sur ce boilerplate Next.js",
+  description: "Contactez-nous pour plus d&apos;informations sur ce boilerplate Next.js",
 };
 
 export default function ContactPage() {

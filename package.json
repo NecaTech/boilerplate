@@ -1,6 +1,6 @@
 {
   "name": "next-boilerplate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Un boilerplate moderne pour démarrer rapidement des projets Next.js avec TypeScript et TailwindCSS",
   "repository": {

@@ -28,7 +28,7 @@ export default function AboutPage() {
               </Card.Header>
               <Card.Content>
                 <p>
-                  Le projet est organisé en dossiers logiques pour faciliter la maintenance et l'évolutivité.
+                  Le projet est organisé en dossiers logiques pour faciliter la maintenance et l&apos;évolutivité.
                   Les composants, hooks, utilitaires et styles sont séparés pour une meilleure organisation.
                 </p>
               </Card.Content>
@@ -79,7 +79,7 @@ export default function AboutPage() {
           </p>
           <div className="flex justify-center gap-4">
             <Button href="/" variant="primary">
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </Button>
             <Button href="https://github.com/NecaTech/boilerplate" variant="secondary">
               Voir sur GitHub
