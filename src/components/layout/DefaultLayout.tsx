@@ -21,6 +21,7 @@ export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
                 <li><Link href="/" className="hover:underline">Home</Link></li>
                 <li><Link href="/about" className="hover:underline">About</Link></li>
                 <li><Link href="/contact" className="hover:underline">Contact</Link></li>
+                <li><Link href="/preview" className="hover:underline">Preview</Link></li>
               </ul>
             </nav>
           </div>
