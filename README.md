@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Boilerplate
 
-## Getting Started
+Un boilerplate moderne pour démarrer rapidement des projets Next.js avec TypeScript et TailwindCSS.
 
-First, run the development server:
+## Fonctionnalités
+
+- ⚡️ [Next.js 15](https://nextjs.org/) - Le framework React pour la production
+- 🔥 [App Router](https://nextjs.org/docs/app) - Nouvelle architecture de routage de Next.js
+- 🎨 [TailwindCSS 4](https://tailwindcss.com/) - Framework CSS utilitaire
+- 📦 [TypeScript](https://www.typescriptlang.org/) - Typage statique pour JavaScript
+- 📱 Design responsive
+- 🧩 Composants UI réutilisables
+- 🔍 ESLint - Linting pour JavaScript/TypeScript
+- 🌓 Mode sombre/clair
+- 📁 Structure de projet organisée
+
+## Structure du projet
+
+```
+├── public/              # Fichiers statiques
+├── src/
+│   ├── app/             # App Router de Next.js
+│   ├── components/       # Composants React
+│   │   ├── layout/      # Composants de mise en page
+│   │   └── ui/          # Composants d'interface utilisateur
+│   ├── hooks/           # Hooks React personnalisés
+│   ├── lib/             # Fonctions utilitaires
+│   ├── styles/          # Styles globaux
+│   └── types/           # Types TypeScript
+├── .env.example         # Variables d'environnement d'exemple
+├── next.config.ts       # Configuration Next.js
+├── package.json         # Dépendances et scripts
+└── tsconfig.json        # Configuration TypeScript
+```
+
+## Démarrage rapide
+
+1. Clonez ce dépôt ou utilisez-le comme template
+2. Installez les dépendances :
+
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+```
+
+3. Copiez le fichier `.env.example` en `.env.local` et ajustez les variables si nécessaire
+
+```bash
+cp .env.example .env.local
+```
+
+4. Démarrez le serveur de développement :
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Composants disponibles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ce boilerplate inclut plusieurs composants UI réutilisables :
 
-## Learn More
+- `Button` - Bouton personnalisable avec différentes variantes et tailles
+- `Card` - Carte avec en-tête, contenu et pied de page
+- `Container` - Conteneur pour une mise en page cohérente
+- `DefaultLayout` - Mise en page par défaut avec en-tête et pied de page
 
-To learn more about Next.js, take a look at the following resources:
+## Hooks personnalisés
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `useLocalStorage` - Hook pour utiliser localStorage avec l'état React
+- `useMediaQuery` - Hook pour vérifier si une media query correspond
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Scripts disponibles
 
-## Deploy on Vercel
+- `npm run dev` - Démarre le serveur de développement
+- `npm run build` - Construit l'application pour la production
+- `npm run start` - Démarre l'application en mode production
+- `npm run lint` - Exécute ESLint pour vérifier le code
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Déploiement
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ce projet peut être facilement déployé sur [Vercel](https://vercel.com) ou toute autre plateforme supportant Next.js.
+
+## Licence
+
+MIT
